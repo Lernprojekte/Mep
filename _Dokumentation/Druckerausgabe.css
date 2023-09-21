@@ -1,0 +1,24 @@
+/* Stile für den Druck */ 
+@media print {
+  @page {
+    size: A4;
+    margin: 1cm;
+  }
+
+  @page :first {
+        
+  }
+
+  @page :left {
+    margin-left: 2cm;
+  }
+
+  @page :right {
+    margin-right: 2cm;
+  } 
+
+  body {
+    background-color: transparent; /* Hintergrund entfernen */
+    color: black; /* Schwarze Schriftfarbe für den Druck */
+  }
+}
